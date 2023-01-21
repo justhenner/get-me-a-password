@@ -4,6 +4,11 @@
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
+var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+var lowerCase = 'abcdefghijklmnopqrstuvwxyz';
+var numbers = '1234567890';
+var symbols = '!@#$%%^&*()_+=';
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();

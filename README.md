@@ -28,14 +28,16 @@ By using the concat() method each time a user selected a password criteria (i.e.
 ## Author Info
 
 ### Henner Espinoza
-[linkedIn](https://www.linkedin.com/in/hennerespinoza)
 
-[GitHub](https://github.com/justhenner)
+* [LinkedIn](https://www.linkedin.com/in/hennerespinoza)
+
+* [GitHub](https://github.com/justhenner)
 
 ## Credits
 
-Navpreet Ahuja, Tutor
-Study group members
+* Navpreet Ahuja, Tutor
+
+* Study group members
 
 ## License
 

@@ -20,7 +20,7 @@ function generatePassword(){
   var passwordLength = prompt("What is the length of the password? Note: length of at least 8 characters and no more than 128 characters");
   var lowerCaseYN = confirm("Click ok to confirm whether or not to include lowercase letters.");
   var upperCaseYN = confirm("Click ok to confirm whether or not to include uppercase letters.");
-  var numbericYN = confirm("Click ok to confirm whether or not to include numeric characters.");
+  var numericYN = confirm("Click ok to confirm whether or not to include numeric characters.");
   var specialCharsYN = confirm("Click ok to confirm whether or not to include special characters.");
 
   // confirm password length meets required specs
@@ -38,7 +38,7 @@ function generatePassword(){
   if (upperCaseYN){
     passwordContainer = passwordContainer.concat(upperCase);
   }
-  if (numbericYN){
+  if (numericYN){
     passwordContainer = passwordContainer.concat(numeric);
   }
   if (specialCharsYN){

@@ -9,6 +9,8 @@ var lowerCase = 'abcdefghijklmnopqrstuvwxyz';
 var numbers = '1234567890';
 var symbols = '!@#$%%^&*()_+=';
 
+var userChoice = ''
+
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();

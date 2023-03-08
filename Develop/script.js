@@ -11,7 +11,7 @@ function generatePassword(){
   var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   var lowerCase = 'abcdefghijklmnopqrstuvwxyz';
   var numbers = '1234567890';
-  var specialChars = "!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
+  var specialChars = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
   // Password container
   var passwordContainer = "";
@@ -57,7 +57,7 @@ function generatePassword(){
     // generate rand number that is equal to or less than passwordContainer length
     var randomNumber = Math.floor(Math.random() * passwordContainer.length + 1);
 
-    // iterate through passwordContainer and pull char character at index of # provided by randomNumber
+    // iterate through passwordContainer and pull character at index of # provided by randomNumber
     pass += passwordContainer.charAt(randomNumber)
     console.log(pass);
   } 

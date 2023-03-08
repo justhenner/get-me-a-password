@@ -10,7 +10,7 @@ function generatePassword(){
   // password criteria 
   var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
   var lowerCase = 'abcdefghijklmnopqrstuvwxyz';
-  var numbers = '1234567890';
+  var numeric = '1234567890';
   var specialChars = "!#$%&'()*+,-./:;<=>?@[\]^_`{|}~";
 
   // Password container
@@ -39,10 +39,10 @@ function generatePassword(){
     passwordContainer = passwordContainer.concat(upperCase);
   }
   if (numbericYN){
-    passwordContainer = passwordContainer.concat(numbers);
+    passwordContainer = passwordContainer.concat(numeric);
   }
   if (specialCharsYN){
-    passwordContainer = passwordContainer.concat(numbers);
+    passwordContainer = passwordContainer.concat(specialChars);
   }
 
   // alert if user does not select a variable 
